@@ -1,0 +1,9 @@
+# Hazlotumimsmo1 modulo 4.8
+
+# Problema:  
+
+- localhost:3000/api/name Tu nombre completo get
+
+- localhost:3000/students/number Número aleatorio entre 0 y 100 get
+
+- localhost:3000/courses/n1ton2 Número aleatorio entre 1000 y 2000 Post
