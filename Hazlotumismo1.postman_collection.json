@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "9f7dbe16-8bb9-4fc5-afd3-c0982353575a",
+		"name": "Hazlotumismo1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38340876"
+	},
+	"item": [
+		{
+			"name": "impresion-nombre-completo",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/name",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"name"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "numero-aleatorio-0-100",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/students/number",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"students",
+						"number"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "numero-aleatorio-1000-2000",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/courses/n1ton2",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"courses",
+						"n1ton2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
